@@ -1,0 +1,210 @@
+.navbar-collapse {
+  justify-content: flex-end;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+header {
+  position: sticky;
+  z-index: 999;
+  top: 0;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #f4dff4;
+}
+
+.navbar {
+  background-color: blue;
+  color: white;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+  color: rgb(237, 235, 235);
+}
+
+.nav-link:hover {
+  border: 1px solid white;
+  -webkit-border-top-left-radius: 4px;
+  -webkit-border-bottom-right-radius: 4px;
+  -moz-border-radius-topleft: 4px;
+  -moz-border-radius-bottomright: 4px;
+  border-top-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+.main__container h2 {
+  text-align: center;
+}
+.main__container__block {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.section__container {
+  margin-top: 20px;
+  background-color: blue;
+}
+.section__container h2 {
+  text-align: center;
+}
+.section__container__block {
+  margin: 16px;
+  width: 100%;
+  padding: 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.section__container__block__min {
+  width: 20%;
+  align-items: center;
+  border: 3px solid white;
+  -webkit-border-top-left-radius: 16px;
+  -webkit-border-bottom-right-radius: 16px;
+  -moz-border-radius-topleft: 16px;
+  -moz-border-radius-bottomright: 16px;
+  border-top-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.section__container__block__min__img {
+  width: 128px;
+  height: 128px;
+}
+
+.section-2__container h2 {
+  text-align: center;
+  color: blue;
+}
+.section-2__container__block {
+  color: blue;
+  margin: 16px;
+  width: 100%;
+  padding: 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.section-2__container__block__min {
+  width: 20%;
+  align-items: center;
+  border: 3px solid blue;
+  padding: 8px;
+  -webkit-border-top-left-radius: 16px;
+  -webkit-border-bottom-right-radius: 16px;
+  -moz-border-radius-topleft: 16px;
+  -moz-border-radius-bottomright: 16px;
+  border-top-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.section-2__container__block__min__but {
+  background-color: blue;
+  -webkit-border-top-left-radius: 8px;
+  -webkit-border-bottom-right-radius: 8px;
+  -moz-border-radius-topleft: 8px;
+  -moz-border-radius-bottomright: 8px;
+  border-top-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  color: white;
+  width: 70px;
+  height: 40px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.section-2__container__block__min-f {
+  border-bottom: 2px solid blue;
+  width: 100%;
+  text-align: center;
+}
+
+.section-3__container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.section-3__container input {
+  border: 1px solid blue;
+  width: 300px;
+  margin: 12px;
+  -webkit-border-top-left-radius: 8px;
+  -webkit-border-bottom-right-radius: 8px;
+  -moz-border-radius-topleft: 8px;
+  -moz-border-radius-bottomright: 8px;
+  border-top-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  padding: 4px;
+}
+.section-3__container .but {
+  background-color: blue;
+  -webkit-border-top-left-radius: 8px;
+  -webkit-border-bottom-right-radius: 8px;
+  -moz-border-radius-topleft: 8px;
+  -moz-border-radius-bottomright: 8px;
+  border-top-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  color: white;
+  width: 140px;
+  height: 40px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.section-3__container__input {
+  height: 100px;
+}
+.section-3__container ::-moz-placeholder {
+  color: blue;
+  font-weight: 700;
+}
+.section-3__container ::placeholder {
+  color: blue;
+  font-weight: 700;
+}
+.section-3__container input:focus {
+  border-color: blue;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+footer {
+  width: 100%;
+  background-color: blue;
+  margin-top: 50px;
+  text-align: center;
+  padding: 8px;
+  color: white;
+}
+
+@media screen and (max-width: 600px) {
+  .main__container__block, .section__container__block, .section-2__container__block {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .section__container__block__min__img {
+    width: 100px;
+    height: 100px;
+  }
+}/*# sourceMappingURL=container.css.map */
